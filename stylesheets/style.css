@@ -1,0 +1,37 @@
+/*
+* Copyright 2014, @author LayaleMatta
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 16/9/2014
+*/
+
+div.container .footer hr{margin: 30px 0 10px;}
+div.container .footer{font-size:13px;}
+div.container h1.title{margin: 30px 0 5px 0;}
+div.container div.loader .icon-spinner{font-size:28px;}
+
+.button {
+   transition:margin .25s ease-in-out;
+   -moz-transition:margin .25s ease-in-out;
+   -webkit-transition:margin .25s ease-in-out;
+  
+  float:left;
+  height:48px;
+  width:48px;
+  margin-left:10px;
+  opacity:1;
+  border-style: none;
+}
+
+.button:hover {
+   transition:margin .25s ease-in-out;
+   -moz-transition:margin .25s ease-in-out;
+   -webkit-transition:margin .25s ease-in-out;
+  opacity:.5;
+  
+  margin-top:-10px;
+  border-style: none;
+  
+  -webkit-box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0); 
+}

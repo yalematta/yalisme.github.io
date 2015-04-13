@@ -13,7 +13,7 @@ $(document).ready(function () {
     looper = setInterval(function () {
         verbage(i);
         i = i + 1;
-        if (i === 8) {
+        if (i === 7) {
             i = 0;
         }
     }, 3000);

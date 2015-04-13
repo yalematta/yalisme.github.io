@@ -13,7 +13,7 @@ $(document).ready(function () {
     looper = setInterval(function () {
         verbage(i);
         i = i + 1;
-        if (i === 7) {
+        if (i === 8) {
             i = 0;
         }
     }, 3000);
@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 function verbage(i) {
     "use strict";
-    var words = ["made this website.", "likes mobile dev.", "has work experience.", "plays violin.", "commits to GitHub obsessively.", "will eat anything.", "loves hackathons."];
+    var words = ["made this website.", "likes mobile dev.", "has work experience.", "codes for fun.", plays violin.", "commits to GitHub obsessively.", "will eat anything.", "loves hackathons."];
     $("#fillin").fadeOut(500, function () {
         $(this).text(words[i]).fadeIn(500);
     });

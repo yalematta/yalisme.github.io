@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 function verbage(i) {
     "use strict";
-    var words = ["made this website.", "likes mobile dev.", "has work experience.", "codes for fun.", plays violin.", "commits to GitHub obsessively.", "will eat anything.", "loves hackathons."];
+    var words = ["made this website.", "likes mobile dev.", "has work experience.", "codes for fun.", "plays violin.", "commits to GitHub obsessively.", "will eat anything.", "loves hackathons."];
     $("#fillin").fadeOut(500, function () {
         $(this).text(words[i]).fadeIn(500);
     });
